@@ -1,0 +1,4 @@
+Recursion:
+            A fuction calling itself
+            In other words Recursion means solving big problems by using small problems.
+            {Like we use classes in java}

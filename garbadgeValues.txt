@@ -1,0 +1,2 @@
+garbadgeValues:
+                When loop can'T run then compiler(pc) automatically generate random values that valuse known as garbadge valuse.

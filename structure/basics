@@ -1,0 +1,50 @@
+what is structure in c?
+
+-->structure is a user define data type which can store multiple variables of diff dataTypes
+
+///////////Syntax////////////////////////////////
+
+struct hadi
+{
+    int rno;
+    char grade;
+    float pr;
+};
+
+/////////////////////////////////////////Eg//////////////////////////////////////////
+#include<stdio.h>
+int main()
+{
+    
+    struct student//////Making structure////kind of a method from java
+    {
+        int rno;
+        float pr;
+        char grade;
+    };
+    
+    struct student hadi;/////////declaration/////making object
+    
+    hadi.grade='A';////////initializasion///////calling
+    hadi.rno=90;////////initializasion///////calling
+    hadi.pr=88.9;////////initializasion///////calling
+    
+    ///////////////////////////printing///////////////////////////////////
+    
+    printf("Grade is %c\n",hadi.grade);
+    printf("Roll number is %d\n",hadi.rno);
+    printf("Percentage is %f\n",hadi.pr);
+    
+    struct student nayani;/////////declaration/////making object
+    
+    nayani.grade='B';////////initializasion///////calling
+    nayani.rno=84;////////initializasion///////calling
+    nayani.pr=77.9;////////initializasion///////calling
+    
+    ///////////////////////////printing///////////////////////////////////
+    printf("Grade is %c\n",nayani.grade);
+    printf("Roll number is %d\n",nayani.rno);
+    printf("Percentage is %f\n",nayani.pr);
+    
+    return 0;
+}
