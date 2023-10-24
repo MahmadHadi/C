@@ -1,0 +1,66 @@
+String:
+        Kind of 1-D array which contains characters insteed of numbers
+
+Application of string:
+-->To store string like name,location,line etc
+
+//................................DECLARATION........................................//
+
+METHOD 1 LONG METHOD DO NOT USE
+    char str[]={'h','a','d','i','\0'};.......\0 is null char 
+
+    \\IMP ***ascii value of null char is 0 *** IMP//
+    \\IMP ***anything you write after \0 will not print in METHOD 2 ***//
+
+METHOD 2 SHORT METHOD USE THIS
+
+    char str[]="hadi";..........in this type of string null char will also declar autometically
+
+
+HANCE
+
+    char str[]={'h','a','d','i'}; == char str[]="hadi"; .........both are same
+
+...........................PRINT STRING...............................................
+--> THERE ARE TWO METHODS TO PRINT A STRING
+1] BY USING FOR LOOP
+                        for(int i=0;i<size;i++)
+                        {
+                            printf("%c",str[i]);
+                        }
+
+2]BY USING printf("%s",nameOfString);............we will use these method.
+    \\IMP ***anything you write after \0 will not print in METHOD 2 ***//
+    EG:::::    char str[]="ha\0di";//short method
+               printf("%s",str);
+        O/P::::ha 
+
+
+........................CHANGE OF VALUE............................
+
+char str[]="hadi";
+printf("%f\n",str);
+
+str[0]='H';
+str[1]='A';
+printf("%f",str);
+
+O/P:
+hadi
+HAdi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+what is array?
+Array can be said as a list of items.
+In other words array can be store many diffrent variables of same dataType.
+
+/////////////////////Syntax/////////////////////////
+
+dataType nameOfArray[size];
+eg
+   int name[5];///////////declaration of an array with size 5
+
+elementNu :   0  1  2  3  4            line38
+int name[5]={10,20,30,40,50};////////initialization
+{}ni ander na elements ne "elements of array" kahevay
+
+accessing:
+            i/p:   printf("%d",name[3]);//third element will be printed
+            o/p:   40
+
+            i/p:   printf("%d",name[0]);
+            o/p:   10
+
+            i/p:   printf("%d",name[1]);
+            o/p:   20
+
+................................................................................
+
+changing value of element
+
+i/p:   
+        printf("%d\n",name[0]);
+        name[0]=60;
+        printf("%d\n",name[0]);
+o/p
+        10
+        60
+
+
+.......................index.....................................
+elementnum:  0 1 2 3  also known as index number
+int arr[4] ={1,2,3,4};
+
+if size is n => indexing will be 0 to (n-1)
+...................................................................
+
+.................sizeOfArray.....................................
+
+int size=sizeof(arr)/sizeof(arr[0]);
+printf("%d",size);

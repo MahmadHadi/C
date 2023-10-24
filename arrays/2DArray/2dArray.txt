@@ -1,0 +1,30 @@
+2D array stands for 2-dimensional array
+1d array : list
+2d array : table ; also called matrix
+
+Syntax
+
+int ar[r][c];
+
+eg
+    int ar[2][2];                   that means a matrix of 2*2 like maths
+    ar[0][0]=1;                     a(0,0)=1
+    ar[0][1]=2;                     a(0,1)=2
+    ar[1][0]=3;                     and so on...
+    ar[1][1]=4;
+
+........................................EG......................................
+
+int ar[4][2]={{1,2},{3,4},{5,6},{7,8}}  ==  {1,2,3,4,5,6,7,8};
+
+int br[1][1]={1};
+
+int cr[2][3]={{1,2,3},{4,5,6}}  ==  {1,2,3,4,5,6};
+
+int dr[][2]={1,2}   ==  correct ;
+
+int dr[2][]={1,2}   ==  incorrect ;
+
+......................................O/P............................................
+
+we use nested loop to get out/put just like pattern printing
