@@ -1,0 +1,2 @@
+continue:
+         If we want to skip something in loop then we can use continue statement.

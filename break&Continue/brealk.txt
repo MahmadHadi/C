@@ -1,0 +1,3 @@
+Break:
+        Break statement can stop the loop before fulfill the confition
+        
