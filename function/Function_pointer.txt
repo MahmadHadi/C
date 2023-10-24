@@ -1,0 +1,23 @@
+   What is function?
+-->Function is a machine that contains some formulas to give us a spesific out-put.
+        input-->[function]-->out-out
+eg
+        if f(x)=x*3-1 then f(3)=?
+
+        f(3)=3*3-1=9-1=8
+
+Why function?
+-->We can make our code more readable and simple by using function.
+-->We can stop repetition using function.
+
+--------------------Syntax---------------------
+
+returnType nameOfFunction(parameters)
+{
+        ////////////code.//////////////////////////
+        return;
+}
+
+
+return means FINISH THE FUNCTION AND GIVE THE VALUE BACK.
+

@@ -1,0 +1,6 @@
+dataTypes   storage
+int         4 bytes
+char        2 bytes
+bool        1 byte 
+
+
