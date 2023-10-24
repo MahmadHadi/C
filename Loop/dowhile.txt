@@ -1,0 +1,10 @@
+--->This loop atleast run for once.
+--->Not very useful.
+--->When we need loop to run atleast once that time we use this.
+
+==>Syntax
+
+do{
+    //code;
+}
+while(condition)
