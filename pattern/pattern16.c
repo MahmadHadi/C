@@ -1,7 +1,7 @@
 //Write a pro to print half solid inverted  triangle.
 
     // 1 1 1 
-    // 2 3
+    // 2 2
     // 3
 #include<stdio.h>
 int main()
